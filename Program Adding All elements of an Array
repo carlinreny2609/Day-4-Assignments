@@ -1,0 +1,19 @@
+package selenium;
+
+public class Sum_Elements_Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int Array_A[] = { 10, 20, 30, 40 };
+
+		int i; 
+		int sum = 0;
+
+		for (i = 0; i < Array_A.length; i++) {
+		 sum = sum + Array_A[i];
+		}
+
+		System.out.println("The sum is: " + sum);
+}
+}
