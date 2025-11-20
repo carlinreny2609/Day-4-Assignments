@@ -1,0 +1,26 @@
+For Loop:
+
+
+It is a common loop that allows repetition of any operation. We can run any block of code any number of times till the condition is true.
+
+
+Syntax:
+
+for(i=0;i<=5;i++){
+
+System.out.println(sum);
+
+}
+
+
+For each Loop:
+
+It is used to retrieve the elements from Array or collections.
+
+syntax:
+
+for(datatype element : Arrayname){
+System.out.println(element);
+}
+
+From the above description, It is clear that For each loop is easy to access all the elements of the array.
