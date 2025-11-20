@@ -1,0 +1,18 @@
+package selenium;
+
+public class Reverse_Array {
+
+	public static void main(String[] args) {	
+// TODO Auto-generated method stub
+		int[] Array_A = { 10, 20, 30, 40 };
+		System.out.println("The length of the Array is :" + Array_A.length);
+		int i;
+		for (i = Array_A.length - 1; i < Array_A.length; i--) {
+			if (i >= 0) {
+				System.out.print(Array_A[i] + " ");
+			}
+		}
+
+	}
+
+}
